@@ -27,40 +27,6 @@ repeat
     id,z_frontSensor = rednet.receive(protocol)
 until (x_frontSensor ~= nil) and (y_frontSensor ~= nil) and (z_frontSensor ~=nil)
 
---传回来前面传感器的坐标
-local x_frontSensor = nil
-local y_frontSensor = nil
-local z_frontSensor = nil
-
-repeat 
-    id,x_frontSensor = rednet.receive(protocol)
-    id,y_frontSensor = rednet.receive(protocol)
-    id,z_frontSensor = rednet.receive(protocol)
-until (x_frontSensor ~= nil) and (y_frontSensor ~= nil) and (z_frontSensor ~=nil)
-
---传回来前面传感器的坐标
-local x_frontSensor = nil
-local y_frontSensor = nil
-local z_frontSensor = nil
-
-repeat 
-    id,x_frontSensor = rednet.receive(protocol)
-    id,y_frontSensor = rednet.receive(protocol)
-    id,z_frontSensor = rednet.receive(protocol)
-until (x_frontSensor ~= nil) and (y_frontSensor ~= nil) and (z_frontSensor ~=nil)
-
---传回来前面传感器的坐标
-local x_frontSensor = nil
-local y_frontSensor = nil
-local z_frontSensor = nil
-
-repeat 
-    id,x_frontSensor = rednet.receive(protocol)
-    id,y_frontSensor = rednet.receive(protocol)
-    id,z_frontSensor = rednet.receive(protocol)
-until (x_frontSensor ~= nil) and (y_frontSensor ~= nil) and (z_frontSensor ~=nil)
-
-
 --记录发送给主机消息的客机id
 local id=0
 local id_1=0
