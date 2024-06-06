@@ -102,7 +102,7 @@ local z_tmpadiru=z_adiru
 
         x_adiru,y_adiru,z_adiru = gps.locate()
             
-    until (x_FrontSensor ~= x_tmpadiru) and (y_FrontSensor ~= y_tmpadiru) and (z_FrontSensor ~= z_tmpadiru)
+    until (x_adiru ~= x_tmpadiru) and (y_adiru ~= y_tmpadiru) and (z_adiru ~= z_tmpadiru)
     
     --计算水平x轴速度
     local vx = math.abs((x_adiru-x_tmpadiru)/time)
